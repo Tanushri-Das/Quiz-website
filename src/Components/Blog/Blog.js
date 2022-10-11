@@ -4,7 +4,7 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <div className="blogs">
-      <div>
+      <div className="blog">
         <h3>What is the purpose of react router ?</h3>
         <p>
           ReactJS Router is mainly used for developing Single Page Web
@@ -27,7 +27,7 @@ const Blog = () => {
           Facebook, Instagram uses React Router for rendering multiple views.
         </p>
       </div>
-      <div>
+      <div className="blog">
         <h3>What is UseRef Hook and How does it work?</h3>
         <p>
           The useRef Hook allows you to persist values between renders.It can be
@@ -47,9 +47,26 @@ const Blog = () => {
           field.
         </p>
       </div>
-      <div>
+      <div className="blog">
         <h3>How does Context Api work?</h3>
-        <p></p>
+        <p>
+          The React Context API is a way for a React app to effectively produce
+          global variables that can be passed around. This is the alternative to
+          "prop drilling" or moving props from grandparent to child to parent,
+          and so on.The useContext accepts the value provided by
+          React.createContext and then re-render the component whenever its
+          value changes but you can still optimize its performance by using
+          memoization.
+        </p>
+        <p>
+          It makes it possible to pass data from parent to children nested deep
+          down the component tree directly, instead of passing it down through a
+          chain of props.Context API uses Context.It returns a consumer and a
+          provider. Provider is a component that as it's names suggests provides
+          the state to its children. It will hold the "store" and be the parent
+          of all the components that might need that store. Consumer as it so
+          happens is a component that consumes and uses the state.
+        </p>
       </div>
     </div>
   );
