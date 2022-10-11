@@ -9,7 +9,7 @@ const Topics = () => {
   return (
     <div>
       <HeaderBack></HeaderBack>
-      <h1>All topics are here : {topics.data.length}</h1>
+      <h1>All topics are here</h1>
       <div className="topics">
         {topics.data.map((topic) => (
           <Topic topic={topic}></Topic>
