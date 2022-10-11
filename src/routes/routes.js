@@ -9,7 +9,7 @@ import HeaderBack from "../Components/HeaderBack/HeaderBack";
 import Statistics from "../Components/Statistics/Statistics";
 import TopicDetails from "../Components/TopicDetails/TopicDetails";
 import Topics from "../Components/Topics/Topics";
-
+import "./routes.css";
 import Main from "../layout/Main";
 
 export const router = createBrowserRouter([
@@ -37,5 +37,10 @@ export const router = createBrowserRouter([
       { path: "/blog", element: <Blog></Blog> },
     ],
   },
-  { path: "*", element: <div>Sorry !! This route was not found 404</div> },
+  {
+    path: "*",
+    element: (
+      <div className="error-route">Sorry !! This route was not found 404</div>
+    ),
+  },
 ]);
