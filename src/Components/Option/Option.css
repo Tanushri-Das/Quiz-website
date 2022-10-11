@@ -6,3 +6,10 @@
     border: 2px solid gray;
     padding: 15px;
 }
+@media screen and (max-width:576px){
+    .all-option{
+        border: 2px solid gray;
+        width: 80%;
+        padding: 15px;
+    }
+}

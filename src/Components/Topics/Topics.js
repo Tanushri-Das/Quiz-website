@@ -5,11 +5,10 @@ import Topic from "../Topic/Topic";
 import "./Topics.css";
 const Topics = () => {
   const topics = useLoaderData();
-  console.log(topics.data);
   return (
     <div>
       <HeaderBack></HeaderBack>
-      <h1>All topics are here</h1>
+      <h1 className="topics-text">All topics are here</h1>
       <div className="topics">
         {topics.data.map((topic) => (
           <Topic topic={topic}></Topic>

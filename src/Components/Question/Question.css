@@ -10,7 +10,6 @@
     margin-left: 12%;
 }
 .question{
-    /* background-color: lightgreen; */
     border: none;
     padding: 2% 5%;
     margin: 2% 20%;
@@ -21,4 +20,10 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border: none;
+}
+@media screen and (max-width:576px) {
+    .question{
+       width: 83%;
+       margin-left:3%;
+    }
 }
