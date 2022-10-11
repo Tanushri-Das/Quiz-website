@@ -1,0 +1,11 @@
+.option{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+border: 2px solid khaki;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.font{
+    position: relative;
+}
