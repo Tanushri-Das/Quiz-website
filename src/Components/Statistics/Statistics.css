@@ -1,0 +1,15 @@
+.chart{
+    margin-left:25%;
+    margin-top:8%;
+}
+@media screen and (max-width:576px){
+    .chart{
+      
+        margin-left:-20px;
+        margin-right: 10px;
+
+    }
+    .width{
+        width: 100px;
+    }
+}   
