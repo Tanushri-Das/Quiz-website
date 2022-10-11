@@ -12,9 +12,7 @@ const TopicDetails = () => {
 
   return (
     <div className="quiz">
-      <h3>
-        Quiz of {name} {id}
-      </h3>
+      <h3>Quiz of {name}</h3>
 
       {Questions.map((querys) => (
         <Question querys={querys}></Question>

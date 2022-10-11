@@ -1,18 +1,24 @@
-.option{
+
+.font{
+   display: flex;
+   margin-left: 8%;
+   align-items: center;
+}
+.question-container{
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+}
+.question{
+    /* background-color: lightgreen; */
+    border: none;
+    padding: 2% 5%;
+    margin: 2% 20%;
+    border: 2px solid lightpink;
+    border-radius: 15px;
+}
+.options{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border: 2px solid khaki;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
-    gap: 10px;
-    padding-top: 40px;
-}
-.all{
-    border: 2px solid blueviolet;
-}
-.font{
-    width: 100%;
-    text-align: right;
-    /* position: relative; */
+    border: none;
 }
