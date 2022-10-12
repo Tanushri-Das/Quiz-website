@@ -9,9 +9,7 @@ const HeaderDown = () => {
           Education is a purposeful activity directed at achieving certain aims,
           such as transmitting knowledge or fostering skills and character
           traits. These aims may include the development of understanding,
-          rationality, kindness, and honesty.Our mission is to promote student
-          achievement and preparation for global competitiveness by fostering
-          educational excellence and ensuring equal access.
+          rationality, kindness, and honesty.
         </p>
       </div>
     </div>

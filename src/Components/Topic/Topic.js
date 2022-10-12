@@ -10,7 +10,7 @@ const Topic = ({ topic }) => {
 
       <div className="topic-info">
         <h1>{name}</h1>
-        <p>Total Questions : {total}</p>
+        <p>Total Quiz : {total}</p>
         <Link to={`/topic/${id}`}>
           <button className="details-btn">Start Practice</button>
         </Link>

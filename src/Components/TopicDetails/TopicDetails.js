@@ -10,10 +10,6 @@ const TopicDetails = () => {
 
   const Questions = topic.data.questions;
 
-  // const [count, setCount] = useState(0);
-  // const handleTotalCorrect = () => {
-  //   setCount((previous) => previous + 1);
-  // };
   return (
     <div className="quiz">
       <h3>Quiz of {name}</h3>
