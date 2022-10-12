@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Option from "../Option/Option";
 import Question from "../Question/Question";
@@ -10,6 +10,10 @@ const TopicDetails = () => {
 
   const Questions = topic.data.questions;
 
+  // const [count, setCount] = useState(0);
+  // const handleTotalCorrect = () => {
+  //   setCount((previous) => previous + 1);
+  // };
   return (
     <div className="quiz">
       <h3>Quiz of {name}</h3>

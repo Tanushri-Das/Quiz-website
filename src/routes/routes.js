@@ -11,11 +11,13 @@ import TopicDetails from "../Components/TopicDetails/TopicDetails";
 import Topics from "../Components/Topics/Topics";
 import "./routes.css";
 import Main from "../layout/Main";
+import Error from "../Components/Error/Error";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -42,11 +44,5 @@ export const router = createBrowserRouter([
       },
       { path: "/blog", element: <Blog></Blog> },
     ],
-  },
-  {
-    path: "*",
-    element: (
-      <div className="error-route">Sorry !! This route was not found 404</div>
-    ),
   },
 ]);

@@ -5,8 +5,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Option = ({ option, correctAnswer, id }) => {
-  console.log(correctAnswer);
-
   const handleClick = (option, correctAnswer) => {
     if (option === correctAnswer) {
       toast.success("Correct Answer");

@@ -12,7 +12,7 @@ const Topics = () => {
       <h1 className="topics-text">All topics are here</h1>
       <div className="topics">
         {topics.data.map((topic) => (
-          <Topic topic={topic}></Topic>
+          <Topic key={topic.id} topic={topic}></Topic>
         ))}
       </div>
     </div>
