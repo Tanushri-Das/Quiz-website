@@ -3,7 +3,7 @@
     background-image: url(../../images/backgroundimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -20px;
+    margin-top: -30px;
     animation: slide-up 2s;
 }
 @keyframes slide-up {
@@ -22,15 +22,20 @@
     padding-top: 190px;
     padding-left: 110px;
     word-spacing: 10px;
-    
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px red;
 }
 
 @media screen and (max-width:576px){
     .header-dawn{
-        height:150vh;
-
+        width:100%;
+        height:140vh;
     }
     .text{
         color: white;
+        padding-left:45px;
+        text-align: center;
     }
 }
