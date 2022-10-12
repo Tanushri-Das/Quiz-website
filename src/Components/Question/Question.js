@@ -34,9 +34,6 @@ const Question = ({ querys }) => {
           ></Option>
         ))}
       </div>
-      <div>
-        <h4>Order Summary</h4>
-      </div>
     </div>
   );
 };

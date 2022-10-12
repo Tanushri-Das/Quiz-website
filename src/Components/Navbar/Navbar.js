@@ -8,7 +8,8 @@ const Navbar = () => {
     <div>
       <nav className="header">
         <div>
-          <img className="image" src={logo} alt="" />
+          {/* <img className="image" src={logo} alt="" /> */}
+          <h1 className="website-name">WebTesty</h1>
         </div>
 
         <div className="text-right">

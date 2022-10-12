@@ -19,6 +19,10 @@
 .header a:hover{
     color: orange;
 }
+.website-name{
+    color: white;
+
+}
 @media screen and (max-width:576px) {
     .header{
         display: flex;
