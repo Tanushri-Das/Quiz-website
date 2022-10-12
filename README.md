@@ -1,3 +1,11 @@
+
+Explanation of my Website
+I am building an Educational Website called WebTesty.We were given an API and depended on that API to load the data and show all the topics through the cards.Each card has a button.Clicking each button will show the topic related quizzes that we are loading through the API.While giving the quizzes , if the user selects the correct answer , then a toast will open where it will say the correct answer and if the user selects the wrong answer  ,it will also be shown with a toast.While giving a quiz on each individual topic , there id an eye icon in each individual quiz question,which on click will tell the answer in a toast.A chart will be displayed if you click on Statistics.I am loading the data here using the API provided to us.There were total four topics and I am preparing these four topics depending on the total quiz in each of the four topics.After clicking on the blog will take you to the blog's route.There are three questions and their answers are given there.This website is responsive for phone and desktop.That's all.
+
+
+
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,5 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
 
-Explanation of my Website
-I am building an Educational Website called WebTesty.We were given an API and depended on that API to load the data and show all the topics through the cards.Each card has a button.Clicking each button will show the topic related quizzes that we are loading through the API.While giving the quizzes , if the user selects the correct answer , then a toast will open where it will say the correct answer and if the user selects the wrong answer  ,it will also be shown with a toast.While giving a quiz on each individual topic , there id an eye icon in each individual quiz question,which on click will tell the answer in a toast.A chart will be displayed if you click on Statistics.I am loading the data here using the API provided to us.There were total four topics and I am preparing these four topics depending on the total quiz in each of the four topics.
+

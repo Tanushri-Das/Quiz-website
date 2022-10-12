@@ -1,21 +1,26 @@
 .header-dawn{
-    height:90vh;
-    background-image: url(../../images/ground2.jpg);
+    height:100vh;
+    background-image: url(../../images/backgroundimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -20px;
-    /* margin-bottom: 20px; */
+
 }
 .text{
-    text-align: center;
+    width: 80%;
+    text-align: justify;
     padding-top: 190px;
-    padding-left: 40px;
-    padding-right:50px;
+    padding-left: 110px;
+    word-spacing: 10px;
     
 }
+
 @media screen and (max-width:576px){
     .header-dawn{
-        height:130vh;
+        height:150vh;
 
+    }
+    .text{
+        color: white;
     }
 }

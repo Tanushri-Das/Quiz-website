@@ -1,10 +1,13 @@
 .option{
     padding: 10px 30px;
+    margin: 10px;
 }
 
 .all-option{
     border: 2px solid gray;
-    padding: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
 }
 @media screen and (max-width:576px){
     .all-option{
