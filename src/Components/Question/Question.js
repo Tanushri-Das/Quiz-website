@@ -11,6 +11,7 @@ const Question = ({ querys }) => {
   const handleClick = (correctAnswer) => {
     toast.info(correctAnswer);
   };
+
   return (
     <div className="question">
       <div className="question-container">
@@ -32,6 +33,9 @@ const Question = ({ querys }) => {
             correctAnswer={correctAnswer}
           ></Option>
         ))}
+      </div>
+      <div>
+        <h4>Order Summary</h4>
       </div>
     </div>
   );
