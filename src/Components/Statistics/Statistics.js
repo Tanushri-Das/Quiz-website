@@ -7,20 +7,20 @@ import {
   XAxis,
   YAxis,
   Tooltip,
+  ResponsiveContainer,
 } from "recharts";
-import "./Statistics.css";
+// import "./Statistics.css";
 
 const Statistics = () => {
   const data = useLoaderData();
 
   return (
-    <div className="chart">
+    <ResponsiveContainer width="95%" height={400}>
       <LineChart
-        className="width"
         width={600}
         height={300}
         data={data.data}
-        margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
+        margin={{ top: 20, right: 20, bottom: 5, left: 0 }}
       >
         <Line type="monotone" dataKey="total" stroke="#8884d8" />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -28,7 +28,7 @@ const Statistics = () => {
         <YAxis />
         <Tooltip />
       </LineChart>
-    </div>
+    </ResponsiveContainer>
   );
 };
 
