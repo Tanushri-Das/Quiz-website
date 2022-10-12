@@ -1,9 +1,10 @@
 .header-dawn{
-    height:100vh;
+    width:100%;
     background-image: url(../../images/backgroundimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -30px;
+    height: 100vh;
+    margin-top: -20px;
     animation: slide-up 2s;
 }
 @keyframes slide-up {
@@ -31,7 +32,7 @@
 @media screen and (max-width:576px){
     .header-dawn{
         width:100%;
-        height:140vh;
+        height:150vh;
     }
     .text{
         color: white;
