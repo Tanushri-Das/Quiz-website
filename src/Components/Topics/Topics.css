@@ -1,8 +1,9 @@
 .topics{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    margin-left: 120px;
+    gap:10px;
+    margin-left:75px;
+    margin-bottom: 20px;
 }
 .topics-text{
     text-align: center;

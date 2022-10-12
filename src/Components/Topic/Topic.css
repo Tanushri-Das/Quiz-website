@@ -1,18 +1,21 @@
 .topic{
-    width: 300px;
-    height: 490px;
-    border: 1px solid #95A0A7;
+    width: 320px;
+    height:500px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 8px;
 }
 .topic img{
-    width: 286px;
+    width: 306px;
     height: 286px;
     border-radius: 8px;
     margin: 7px;
-    background-color: aquamarine;
+    background-color: gainsboro;
 }
 .topic-info{
     text-align: center;
+}
+.topic-info p{
+    font-size: 18px;
 }
 .details-btn{
     padding: 16px 28px;
@@ -22,6 +25,9 @@
     color: white;
     border-radius: 15px;
     cursor: pointer;
+}
+.topic:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 @media screen and (max-width:576px){
     .topic{

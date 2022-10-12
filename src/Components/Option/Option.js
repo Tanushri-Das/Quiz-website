@@ -6,19 +6,15 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Option = ({ option, correctAnswer, id }) => {
   console.log(correctAnswer);
-  const [count, setCount] = useState([]);
+
   const handleClick = (option, correctAnswer) => {
     if (option === correctAnswer) {
-      count = option + 1;
-      console.log(count);
       toast.success("Correct Answer");
     } else {
       toast.error("Wrong Answer");
     }
   };
-  const handleAddToClick = () => {
-    console.log("clik");
-  };
+
   return (
     <div className="option">
       <div className="all-option">
@@ -31,9 +27,6 @@ const Option = ({ option, correctAnswer, id }) => {
           />
           {option} <ToastContainer position="top-center" />
         </label>
-      </div>
-      <div>
-        <h2>Order</h2>
       </div>
     </div>
   );
